@@ -1,0 +1,28 @@
+{
+  "name": "swc-plugin-strip-console",
+  "version": "0.1.0",
+  "description": "swc plugin to strip console calls",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc -d",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swc-project/plugin-strip-console.git"
+  },
+  "keywords": [
+    "swc",
+    "plugin",
+    "console"
+  ],
+  "author": "강동윤 <kdy1997.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swc-project/plugin-strip-console/issues"
+  },
+  "homepage": "https://github.com/swc-project/plugin-strip-console#readme",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
+}
