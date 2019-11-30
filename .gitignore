@@ -106,5 +106,4 @@ dist
 *.lock
 package-lock.json
 
-*.js
-*.d.ts
+lib/
